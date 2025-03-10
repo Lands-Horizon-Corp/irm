@@ -1,6 +1,8 @@
+'use client'
+
 import { cn } from '@/lib/utils'
 import { IBaseCompNoChild } from '@/types/component'
-import { useTheme, } from 'next-themes'
+import { useTheme } from 'next-themes'
 import Image from 'next/image'
 
 type TEcoopThemeMode = 'dynamic'

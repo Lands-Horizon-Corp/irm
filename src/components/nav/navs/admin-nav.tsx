@@ -10,6 +10,7 @@ import { cn } from '@/lib/utils'
 
 import { ReactNode } from 'react'
 import { SidebarTrigger } from '@/components/ui/sidebar'
+import Logo from '@/components/logo'
 
 type NavLink = {
   name: string
@@ -33,7 +34,7 @@ const AdminNav = () => {
     <RootNav className='w-full sticky top-0'>
       <NavContainer>
         <SidebarTrigger />
-        {/* <Logo /> */}
+        <Logo />
       </NavContainer>
       <NavContainer>
         {navLinks.map((link, index) => {
